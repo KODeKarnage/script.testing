@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="script.testing"
+       name="testing"
+       version="0.0.1"
+       provider-name="testing">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+
+<extension point="xbmc.python.script"
+            library="default.py">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">testing</summary>
+        <description lang="en">testing addon</description>
+        <language>en</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+        <email></email>
+        <forum></forum>
+        <source></source>
+    </extension>
+</addon>
